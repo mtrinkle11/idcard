@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ID Card Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Mono:700" rel="stylesheet">
+    </head>
+
+    <body>
+        <center>
+        <h1>ID Card Generator 12.0</h1>
+
+        <h6 class="info">First Name:</h6>
+            <input type="text" id="firstName">
+
+        <h6 class="info">Last Name:</h6>
+            <input type="text" id="lastName">
+
+        <h6 class="info">Age:</h6>
+            <input type="text" id="age">
+
+        <h6 class="info">Phone Number:</h6>
+            <input type="text" id="phoneNumber">
+
+        <h6 class="info">Address:</h6>
+            <input type="text" id="address"><br>
+
+        <button onclick="generateID()">Generate ID</button>
+        </center>
+
+
+        <div id="idCard">
+            <img src="Bean.png" alt="">
+            <div class="inline" id="userFirstName"></div>
+            <div class="inline" id="userLastName"></div><br>
+            Age:<div class="inline" id="userAge"></div><br>
+            Phone Number:<div id="userPhoneNumber"></div><br>
+            Address:<div id="userAddress"></div>
+
+        </div>
+
+
+
+        <script src="app.js"></script>
+    </body>
+</html>

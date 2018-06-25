@@ -1,0 +1,37 @@
+#idCard {
+    background: rgb(232, 198, 51);
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 50px;
+    padding-top: 25px;
+    height: 200px;
+    width: 300px;
+    float: left;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.name {
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;;
+
+
+}
+
+.inline {
+    display:inline-flex;
+}
+
+img {
+    float: left;
+}
+
+.info {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+body {
+    background-color: rgb(145, 242, 249);
+}
