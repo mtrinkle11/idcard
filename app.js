@@ -5,6 +5,7 @@ function generateID() {
     let userPhoneNumber = document.getElementById('phoneNumber').value;
     let userAddress = document.getElementById('address').value;
     console.log(userFirstName);
+    
     document.getElementById("userFirstName").innerHTML = userFirstName;
     document.getElementById("userLastName").innerHTML = userLastName;
     document.getElementById("userAge").innerHTML = userAge;
